@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600&family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Lexend:wght@300&family=Pacifico&family=Righteous&display=swap");
+body {
+  background: #ee82ee;
+  box-sizing: border-box;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: rgb(231, 27, 153);
+  border-bottom: 1px solid rgb(121, 18, 86);
+}
+.fashion {
+  font-family: "Pacifico", cursive !important;
+  text-align: center;
+  background-color: transparent !important;
+  text-transform: uppercase;
+  background: #060a40;
+  background: -webkit-repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  background: -moz-repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  background: repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar {
+  color: bisque;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* margin-top: 43px; */
+  z-index: 999999;
+}
+.navbar-nav {
+  margin-bottom: 10px;
+}
+
+.mainSection1 {
+  display: flex;
+  justify-content: space-between;
+}
+.mainSection1 .ecommerceImage {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.mainSection1 h3 {
+  color: gold;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: "Alexandria", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
+
+.Lastsection a:hover {
+  color: rgb(231, 27, 153);
+}
+
+.ecommerce {
+  margin-top: 40px;
+  font-family: "Pacifico", cursive !important;
+  text-transform: uppercase;
+  font-weight: 9000;
+  background: #060a40;
+  background: -webkit-repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  background: -moz-repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  background: repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Lastsection a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutUs .imageAbout p {
+  font-family: "Alexandria", sans-serif;
+  font-family: "Dancing Script", cursive;
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+.aboutUs .imageAbout p span {
+  color: lawngreen;
+}
+
+.aboutUs h2 {
+  color: rgb(212, 11, 112);
+  font-weight: 900;
+  font-size: xxx-large;
+  text-align: center;
+  padding-top: 70px;
+  font-family: "Alexandria", sans-serif;
+  font-family: "Dancing Script", cursive;
+}
+.aboutContent {
+  width: 50%;
+  color: black;
+  font-weight: bold;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+}
+
+.contact {
+  height: 102vh;
+  font-style: italic;
+  padding-top: 100px;
+  background-color: #f6c0f6;
+}
+
+.location {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.location h1 {
+  margin-bottom: 50px;
+  color: black;
+  font-size: larger;
+  font-style: normal;
+}
+
+.location p {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  width: 100%;
+  margin: 20px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin: 20px;
+  height: 70px;
+}
+
+.contact-form button {
+  width: 100px;
+  margin: 20px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.icons i {
+  font-size: 20px;
+  margin: 10px;
+  padding: 5px;
+  color: black;
+}
+
+.icons i:hover {
+  cursor: pointer;
+}

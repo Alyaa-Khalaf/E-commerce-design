@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600&family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Lexend:wght@300&family=Pacifico&family=Righteous&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.navbar .navbar-nav .nav-link {
+  color: black;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: rgb(231, 27, 153);
+  border-bottom: 1px solid rgb(121, 18, 86);
+}
+.navbar .icons {
+  font-size: 20px;
+  color: rgb(23, 185, 185);
+}
+.fashion {
+  font-family: "Pacifico", cursive !important;
+  text-align: center;
+  background-color: transparent !important;
+  text-transform: uppercase;
+  background: #060a40;
+  background: -webkit-repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  background: -moz-repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  background: repeating-radial-gradient(
+    ellipse farthest-corner at bottom center,
+    #060a40 0%,
+    #9c08ff 89%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home {
+  width: 100vw;
+  height: 330px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(IMG/photo_2023-07-05_20-35-46.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.component {
+  padding-top: 90px;
+}
+.home h1 {
+  font-size: 50px;
+  padding-top: 100px;
+}
+.content {
+  width: 100vw;
+  margin-top: 250px;
+  margin-left: 200px;
+}
+.content .card {
+  border: none;
+  text-align: left;
+  padding: 40px;
+}
+
+.content .card .card-text {
+  padding-left: 60px;
+}
+
+footer a {
+  color: white;
+}
