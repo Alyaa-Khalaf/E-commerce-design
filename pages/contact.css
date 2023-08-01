@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --color-1: #186cb8;
+  --color-2: #2fc5b1;
+  --color-5: #9b1590;
+  --color-3: #f1b211;
+  --color-4: rgb(214, 8, 128);
+
+}
+body{
+    /* background-color: antiquewhite; */
+    background-image: url("contact.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 60%;
+    /* width: 100%; */
+    margin: 50px auto;
+
+}
+.fat{
+    background-color: #fff;
+    display: flex;
+    border-radius: 200px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181,0.3);
+    box-sizing: border-box;
+}
+.fat1{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.fat2{
+    flex-basis: 40%;
+    padding: 140px 60px;
+    background-color: rgb(214, 8, 128);
+    color: #fff;
+    border-radius: 200px 0px;
+    box-shadow: 0px 5px 15px 0px rgba(22, 22, 22, 0.979);
+   /* text-align: center ; */
+    box-sizing: border-box;
+}
+
+.hone{
+  color: #1c00b5;
+font-size: 25px;
+margin-bottom: 35px;
+padding-left: 200px;
+/* font-family:'Times New Roman', Times, serif; */
+}
+.container p{
+    margin-bottom: 30px;
+
+}
+.contact-form {
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+ 
+  .contact-form textarea {
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form button {
+    width: 100px;
+    margin: 20px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    right:52%;
+  }
+  
+  .contact-form button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  .icons i {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+  }
+  
+  .icons i:hover {
+    cursor:pointer;
+  }
+  .inform input:hover,
+  .inform textarea:hover{
+    background-color: rgb(214, 8, 128);
+    color: white;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+.inform{
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}  
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+label{
+  margin-bottom: 8px;
+  display: block;
+  color:#1c00b5;
+}
+.location h3{
+  color: #fff;
+  font-weight: 600;
+  margin-bottom:10px ;
+  } 
+  .speh3{
+    color: #000;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 20px;
+  }
+
+.wrapper {
+  line-height: 1;
+  height: 20%;
+  display: grid;
+ }
+
+h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: left;
+  text-transform: uppercase;
+  background: linear-gradient(219deg, 
+    var(--color-4) 60%, var(--color-4) 79%,
+    transparent 79%, transparent 80%, 
+    var(--color-2) 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.container1 h1{
+  color: #000;
+  font-family: "Exo", sans-serif;
+  font-size: 50px;
+  text-align: left;
+}
+
+.container1 {
+padding: 1.5rem;
+}
+
+/* Small screens (less than 576px) */
+@media (max-width: 575.98px) {
+.container {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .fat {
+    flex-direction: column;
+  }
+
+  .fat1,
+  .fat2 {
+    flex-basis: 100%;
+    padding: 20px;
+  }
+
+  .fat2 {
+    border-radius: 0px;
+  }
+
+  .contact-form button {
+    right: 50%;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .container1 h1 {
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .fat1 {
+    flex-basis: 100%;
+  }
+
+  .fat2 {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .fat1 {
+    padding: 20px;
+  }
+
+  .fat1 h2 {
+    font-size: 30px;
+  }
+
+  .fat1 p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact-form button {
+    right: 0;
+    margin-top: 20px;
+  }
+
+  .contact-form button span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .fat2 {
+    padding: 60px 20px;
+  }
+
+  .fat2 h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .fat2 p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 80%;
+  }
+
+  .fat1 {
+    flex-basis: 60%;
+  }
+
+  .fat2 {
+    flex-basis: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .fat1 {
+    padding: 30px;
+  }
+
+  .fat1 h2 {
+    font-size: 35px;
+  }
+
+  .fat1 p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-form button {
+    right: 20%;
+    margin-top: 20px;
+  }
+
+  .contact-form button span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .fat2 {
+    padding: 140px 30px;
+  }
+
+  .fat2 h2 {
+    font-size: 35px;
+  }
+
+  .fat2 p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .fat2 {
+    padding: 140px 30px;
+  }
+
+  .fat2 h2 {
+    font-size: 35px;
+  }
+
+  .fat2 p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .fat1 {
+    padding: 50px;
+  }
+
+  .fat1 h2 {
+    font-size: 40px;
+  }
+
+  .fat1 p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-form button {
+    right: 25%;
+    margin-top: 20px;
+  }
+
+  .contact-form button span {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .fat2 {
+    padding: 150px 50px;
+  }
+
+  .fat2 h2 {
+    font-size: 40px;
+  }
+
+  .fat2 p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+
+  .fat1 {
+    flex-basis: 50%;
+  }
+
+  .fat2 {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fat1 {
+    padding: 80px;
+  }
+
+  .fat1 h2 {
+    font-size: 50px;
+  }
+
+  .fat1 p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-form button {
+    right: 53%;
+    margin-top: 40px;
+  }
+
+  .contact-form button span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fat2 {
+    padding: 200px 80px;
+  }
+
+  .fat2 h2 {
+    font-size: 50px;
+  }
+
+  .fat2 p {
+    font-size: 18px;
+  }
+}
